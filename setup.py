@@ -1,4 +1,9 @@
+
+print('test import worked1')
+
 from setuptools import setup
+
+print('test import worked2')
 
 setup(
    name='test_python_imports',
@@ -9,4 +14,4 @@ setup(
    packages=['test_python_imports']
 )
 
-print('test import worked')
+print('test import worked3')
